@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.cj.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://localhost:3306/account?useSSL=true&amp;useUnicode=true&amp;characterEncoding=UTF-8&amp;autoReconnect=true&amp;failOverReadOnly=false"/>
+                <property name="username" value="root"/>
+                <property name="password" value="yzy665128"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    给每一个Mapper.xml文件在Mybatis配置中心注册，如果Mapper.xml文件在Resources文件夹内则不用配置-->
+    <mappers>
+        <mapper resource="Dao/accountMapper.xml"/>
+    </mappers>
+</configuration>
