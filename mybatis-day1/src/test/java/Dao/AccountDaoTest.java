@@ -1,13 +1,10 @@
 package Dao;
 
-import static org.junit.Assert.assertTrue;
-
 import entity.Account;
 import org.apache.ibatis.session.SqlSession;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.omg.CORBA.OBJ_ADAPTER;
 import utils.mybatisUtil;
 
 import java.util.HashMap;

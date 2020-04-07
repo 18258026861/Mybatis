@@ -16,6 +16,6 @@ public interface IAccountDao {
     int addAccount(Account account);
     int updateAccount(Account account);
     int deleteAccount(int id);
-    int addAccounts(Map<String,Object> map);
+    int addAccounts(Map<String, Object> map);
     List<Account> findByNameLike(String name);
 }
