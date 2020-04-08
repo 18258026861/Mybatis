@@ -11,6 +11,7 @@
     <modules>
         <module>mybatis-day2</module>
       <module>mybatis-day1</module>
+        <module>mybatis-day3</module>
     </modules>
 
     <name>Mybatis</name>

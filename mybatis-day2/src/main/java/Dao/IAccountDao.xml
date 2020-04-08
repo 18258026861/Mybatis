@@ -13,19 +13,19 @@
   </select>
 
 <!--    resultType为单个返回值的类型，如果为自己定义的类型，需要全限定类名，如果返回list的话会自动帮你封装-->
-    <select id="findById" resultType="entity.Account">
+    <select id="findById" resultType="Account">
         select * from account where id = #{id}
     </select>
 
-    <select id="findByName" resultType="entity.Account" parameterType="String">
+    <select id="findByName" resultType="Account" parameterType="String">
         select * from account where name = #{name}
     </select>
 
-    <insert id="addAccount" parameterType="entity.Account" >
+    <insert id="addAccount" parameterType="Account" >
         insert into account values(#{id},#{name},#{money})
     </insert>
 
-    <update id="updateAccount" parameterType="entity.Account">
+    <update id="updateAccount" parameterType="Account">
         update account set name=#{name},money=#{money} where id=#{id}
     </update>
 

@@ -1,9 +1,12 @@
 package entity;
 
+import org.apache.ibatis.type.Alias;
+
 /**
  * @author YZY
  * @date 2020/4/6 - 21:01
  */
+
 public class Account {
     private String name;
     private int id;
