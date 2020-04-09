@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7d759fc-c0c3-48fb-ab17-0003aeee7724" name="Default Changelist" comment="day3">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2616bc1-e95b-4b4a-9f6e-41f28b814f48.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c2616bc1-e95b-4b4a-9f6e-41f28b814f48/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/classes/Dao/accountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/classes/utils/mybatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day1/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/Dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/datesource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/classes/utils/mybatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day2/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/Dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/datesource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/classes/utils/mybatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day3/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/log/kuang.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/logs/log.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/rolling.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/utils/mybatisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/resources/datesource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/src/test/java/Dao/AccountDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/datesource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/utils/mybatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mybatis-day4/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/entity/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/mybatisUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis-study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/mybatis-day4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day3/src/main/java/Dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day3/src/main/java/Dao/IAccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="account@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="account@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="account@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="account: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="account@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="account: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="account: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\web\Mybatis" />
+        <option value="D:\web\Mybatis\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1a9vEA0MLNGg8rhvyGS3OYA6mAu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-day4/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web\Mybatis\mybatis-day4\src\main\resources" />
+      <recent name="D:\web\Mybatis\mybatis-day4\src\main\java" />
+      <recent name="D:\web\Mybatis\mybatis-day4" />
+      <recent name="D:\web\Mybatis\mybatis-day04" />
+      <recent name="D:\web\Mybatis" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AccountDaoTest.findLimit">
+    <configuration name="AccountDaoTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-day4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDaoTest.findLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-day4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDaoTest.findall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-day4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDaoTest.findbyname (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-day3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findbyname" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountDaoTest.findbyname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-day4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findbyname" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AccountDaoTest.findLimit" />
+        <item itemvalue="JUnit.AccountDaoTest.findbyname" />
+        <item itemvalue="JUnit.AccountDaoTest.findbyname (1)" />
+        <item itemvalue="JUnit.AccountDaoTest.findall" />
+        <item itemvalue="JUnit.AccountDaoTest.findById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7d759fc-c0c3-48fb-ab17-0003aeee7724" name="Default Changelist" comment="" />
+      <created>1586160509311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586160509311</updated>
+      <workItem from="1586160510935" duration="2797000" />
+      <workItem from="1586172314421" duration="4426000" />
+      <workItem from="1586239497922" duration="20167000" />
+      <workItem from="1586308096181" duration="10787000" />
+      <workItem from="1586337604695" duration="1755000" />
+      <workItem from="1586339437006" duration="897000" />
+      <workItem from="1586345131867" duration="4283000" />
+      <workItem from="1586355918043" duration="963000" />
+      <workItem from="1586357750719" duration="2145000" />
+      <workItem from="1586400664754" duration="3635000" />
+    </task>
+    <task id="LOCAL-00001" summary="day2">
+      <created>1586269375817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586269375817</updated>
+    </task>
+    <task id="LOCAL-00002" summary="day2-2">
+      <created>1586272270763</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586272270763</updated>
+    </task>
+    <task id="LOCAL-00003" summary="day3">
+      <created>1586337085426</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586337085426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="day2" />
+    <MESSAGE value="day2-2" />
+    <MESSAGE value="day3" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="171" key="#Project_Structure" timestamp="1586337229014">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="552" y="171" key="#Project_Structure/0.0.1920.1024@0.0.1920.1024" timestamp="1586337229014" />
+    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586249192856">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586249192856" />
+    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1586330662770">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1024@0.0.1920.1024" timestamp="1586330662770" />
+    <state x="589" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586338267510">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="589" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586338267510" />
+    <state x="690" y="259" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1586337844313">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="690" y="259" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586337844313" />
+    <state x="506" y="104" key="CommitChangelistDialog2" timestamp="1586405315312">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="506" y="104" key="CommitChangelistDialog2/0.0.1920.1024@0.0.1920.1024" timestamp="1586405315312" />
+    <state x="740" y="254" key="FileChooserDialogImpl" timestamp="1586269015867">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="740" y="254" key="FileChooserDialogImpl/0.0.1920.1024@0.0.1920.1024" timestamp="1586269015867" />
+    <state x="842" y="406" width="260" height="212" key="Github.ShareDialog" timestamp="1586269027135">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="842" y="406" width="260" height="212" key="Github.ShareDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586269027135" />
+    <state x="798" y="215" key="Github.UntrackedFilesDialog" timestamp="1586269049933">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="798" y="215" key="Github.UntrackedFilesDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586269049933" />
+    <state width="1877" height="418" key="GridCell.Tab.0.bottom" timestamp="1586405418273">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1877" height="418" key="GridCell.Tab.0.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418273" />
+    <state width="1877" height="418" key="GridCell.Tab.0.center" timestamp="1586405418272">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1877" height="418" key="GridCell.Tab.0.center/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418272" />
+    <state width="1877" height="418" key="GridCell.Tab.0.left" timestamp="1586405418272">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1877" height="418" key="GridCell.Tab.0.left/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418272" />
+    <state width="1877" height="418" key="GridCell.Tab.0.right" timestamp="1586405418273">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="1877" height="418" key="GridCell.Tab.0.right/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418273" />
+    <state x="490" y="167" key="Maven.ArtifactSearchDialog" timestamp="1586167702818">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="490" y="167" key="Maven.ArtifactSearchDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586167702818" />
+    <state x="461" y="155" key="SettingsEditor" timestamp="1586340860074">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="461" y="155" key="SettingsEditor/0.0.1920.1024@0.0.1920.1024" timestamp="1586340860074" />
+    <state x="656" y="115" width="1118" height="824" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586404068014">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="656" y="115" width="1118" height="824" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586404068014" />
+    <state x="668" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1586339196894">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="668" y="406" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1024@0.0.1920.1024" timestamp="1586339196894" />
+    <state x="466" y="106" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586167943255">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="466" y="106" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1024@0.0.1920.1024" timestamp="1586167943255" />
+    <state x="1024" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586405345807">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="1024" y="444" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1024@0.0.1920.1024" timestamp="1586405345807" />
+    <state x="932" y="319" key="git4idea.merge.GitPullDialog" timestamp="1586405399603">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="932" y="319" key="git4idea.merge.GitPullDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586405399603" />
+    <state x="352" y="208" key="new project wizard" timestamp="1586338848077">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="352" y="208" key="new project wizard/0.0.1920.1024@0.0.1920.1024" timestamp="1586338848077" />
+    <state x="1045" y="318" key="svn.repositoryBrowser" timestamp="1586405085479">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state x="1045" y="318" key="svn.repositoryBrowser/0.0.1920.1024@0.0.1920.1024" timestamp="1586405085479" />
+  </component>
+</project>

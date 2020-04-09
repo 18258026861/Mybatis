@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间，绑定一个对应的Dao类,用于成为它的实现类-->
+<mapper namespace="Dao.IAccountDao">
+<!--    这下面写的都是方法-->
+
+    <resultMap id="AccountMap" type="Account">
+        <result property="m" column="money"></result>
+    </resultMap>
+
+
+<!--    select 查询方法，ID为方法名,resultType 为返回的类型，一般是全限定名-->
+    <select id="findNameById" resultType="String" >
+/*这句话相当于public Account findById(){}*/
+    select name from account where id = #{id}
+  </select>
+
+<!--    resultType为单个返回值的类型，如果为自己定义的类型，需要全限定类名，如果返回list的话会自动帮你封装-->
+    <select id="findById" resultType="Account">
+        select * from account where id = #{id}
+    </select>
+
+    <select id="findByName" resultType="Account" parameterType="String">
+        select * from account where name = #{name}
+    </select>
+
+    <insert id="addAccount" parameterType="Account" >
+        insert into account values(#{id},#{name},#{money})
+    </insert>
+
+    <update id="updateAccount" parameterType="Account">
+        update account set name=#{name},money=#{money} where id=#{id}
+    </update>
+
+    <delete id="deleteAccount" parameterType="int">
+        delete from account where id=#{id}
+    </delete>
+
+    <select id="findLimit" resultMap="AccountMap">
+        select * from account limit 3
+    </select>
+
+
+</mapper>

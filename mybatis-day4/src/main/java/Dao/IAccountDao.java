@@ -14,4 +14,5 @@ public interface IAccountDao {
     int addAccount(Account account);
     int updateAccount(Account account);
     int deleteAccount(int id);
+    List<Account> findLimit();
 }

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+
+       <!-- 引入外部配置文件-->
+    <properties resource="datesource.properties">
+    </properties>
+
+
+    <settings>
+<!--        <setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+
+<!--    类型别名-->
+    <typeAliases>
+        <typeAlias type="entity.Account" alias="Account"/>
+    </typeAliases>
+
+
+
+    <environments default="development">
+        <environment id="development">
+
+            <transactionManager type="JDBC"/>
+
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    给每一个Mapper.xml文件在Mybatis配置中心注册，如果Mapper.xml文件在Resources文件夹内则不用配置-->
+    <mappers>
+
+        <mapper class="Dao.IAccountDao"></mapper>
+    </mappers>
+</configuration>

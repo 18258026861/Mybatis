@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间，绑定一个对应的Dao类,用于成为它的实现类-->
+<mapper namespace="Dao.IAccountDao">
+
+
+
+
+    <select id="findById" resultType="Account">
+        select * from account where id = #{id}
+    </select>
+
+    <select id="findByName" resultMap="AccountMap" >
+        select * from account where name = #{name}
+    </select>
+
+    <!--    结果集映射 ，id：结果集名称   type：想要变成的类型-->
+    <resultMap id="AccountMap" type="Account">
+        <!--        结果一一对应,如果一致就不需要写出来-->
+        <!--<result column="id" property="id"></result>
+        <result column="name" property="name"></result>-->
+        <result column="money" property="m"></result>
+    </resultMap>
+
+
+</mapper>

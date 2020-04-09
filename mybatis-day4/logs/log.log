@@ -1,0 +1,15 @@
+2020-04-08 20:48:23  [ main:0 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-08 20:48:23  [ main:408 ] - [ DEBUG ]  Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-04-08 20:48:23  [ main:536 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-04-08 20:48:23  [ main:536 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-04-08 20:48:23  [ main:537 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-04-08 20:48:23  [ main:537 ] - [ DEBUG ]  PooledDataSource forcefully closed/removed all connections.
+2020-04-08 20:48:23  [ main:735 ] - [ DEBUG ]  Opening JDBC Connection
+2020-04-08 20:48:27  [ main:4627 ] - [ DEBUG ]  Created connection 587003819.
+2020-04-08 20:48:27  [ main:4627 ] - [ DEBUG ]  Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22fcf7ab]
+2020-04-08 20:48:27  [ main:4629 ] - [ DEBUG ]  ==>  Preparing: /*这句话相当于public Account findById(){}*/ select name from account where id = ? 
+2020-04-08 20:48:27  [ main:4668 ] - [ DEBUG ]  ==> Parameters: 8(Integer)
+2020-04-08 20:48:28  [ main:4814 ] - [ DEBUG ]  <==      Total: 1
+2020-04-08 20:48:28  [ main:4821 ] - [ DEBUG ]  Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22fcf7ab]
+2020-04-08 20:48:28  [ main:4822 ] - [ DEBUG ]  Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@22fcf7ab]
+2020-04-08 20:48:28  [ main:4822 ] - [ DEBUG ]  Returned connection 587003819 to pool.
