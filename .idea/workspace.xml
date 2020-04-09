@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7d759fc-c0c3-48fb-ab17-0003aeee7724" name="Default Changelist" comment="">
+    <list default="true" id="d7d759fc-c0c3-48fb-ab17-0003aeee7724" name="Default Changelist" comment="day3-1">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/log/kuang.log" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/log/kuang.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/mybatis-day4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/日志，分页.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/src/main/java/Dao/IAccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/src/test/java/Dao/AccountDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/src/test/java/Dao/AccountDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/target/classes/Dao/IAccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-day4/target/test-classes/Dao/AccountDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-day4/target/test-classes/Dao/AccountDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,25 +133,9 @@
       <recent name="D:\web\Mybatis" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AccountDaoTest.findLimit">
-    <configuration name="AccountDaoTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-day4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Dao" />
-      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountDaoTest.findrowbounds">
     <configuration name="AccountDaoTest.findLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-day4" />
+      <module name="日志，分页" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dao.*" />
@@ -158,7 +151,7 @@
       </method>
     </configuration>
     <configuration name="AccountDaoTest.findall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-day4" />
+      <module name="日志，分页" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dao.*" />
@@ -174,7 +167,7 @@
       </method>
     </configuration>
     <configuration name="AccountDaoTest.findbyname (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-day3" />
+      <module name="ResultMap" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dao.*" />
@@ -190,7 +183,7 @@
       </method>
     </configuration>
     <configuration name="AccountDaoTest.findbyname" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-day4" />
+      <module name="日志，分页" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Dao.*" />
@@ -205,13 +198,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountDaoTest.findrowbounds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="日志，分页" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Dao" />
+      <option name="MAIN_CLASS_NAME" value="Dao.AccountDaoTest" />
+      <option name="METHOD_NAME" value="findrowbounds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="配置解析" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="配置解析" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountDaoTest.findrowbounds" />
         <item itemvalue="JUnit.AccountDaoTest.findLimit" />
         <item itemvalue="JUnit.AccountDaoTest.findbyname" />
         <item itemvalue="JUnit.AccountDaoTest.findbyname (1)" />
         <item itemvalue="JUnit.AccountDaoTest.findall" />
-        <item itemvalue="JUnit.AccountDaoTest.findById" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +302,8 @@
       <workItem from="1586345131867" duration="4283000" />
       <workItem from="1586355918043" duration="963000" />
       <workItem from="1586357750719" duration="2145000" />
-      <workItem from="1586400664754" duration="4239000" />
+      <workItem from="1586400664754" duration="5835000" />
+      <workItem from="1586411215496" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="day2">
       <created>1586269375817</created>
@@ -276,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586405536880</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day3-1">
+      <created>1586406150245</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586406150245</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +351,8 @@
     <MESSAGE value="day2" />
     <MESSAGE value="day2-2" />
     <MESSAGE value="day3" />
-    <option name="LAST_COMMIT_MESSAGE" value="day3" />
+    <MESSAGE value="day3-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day3-1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="171" key="#Project_Structure" timestamp="1586337229014">
@@ -298,10 +363,10 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="552" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586249192856" />
-    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1586330662770">
+    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser" timestamp="1586408236580">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1024@0.0.1920.1024" timestamp="1586330662770" />
+    <state x="765" y="196" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1024@0.0.1920.1024" timestamp="1586408236580" />
     <state x="589" y="201" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1586338267510">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
@@ -310,10 +375,10 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="690" y="259" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586337844313" />
-    <state x="506" y="104" key="CommitChangelistDialog2" timestamp="1586405531755">
+    <state x="506" y="104" key="CommitChangelistDialog2" timestamp="1586406253078">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state x="506" y="104" key="CommitChangelistDialog2/0.0.1920.1024@0.0.1920.1024" timestamp="1586405531755" />
+    <state x="506" y="104" key="CommitChangelistDialog2/0.0.1920.1024@0.0.1920.1024" timestamp="1586406253078" />
     <state x="740" y="254" key="FileChooserDialogImpl" timestamp="1586269015867">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
@@ -326,22 +391,22 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="798" y="215" key="Github.UntrackedFilesDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586269049933" />
-    <state width="1877" height="418" key="GridCell.Tab.0.bottom" timestamp="1586405418273">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1586413490428">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state width="1877" height="418" key="GridCell.Tab.0.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418273" />
-    <state width="1877" height="418" key="GridCell.Tab.0.center" timestamp="1586405418272">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1024@0.0.1920.1024" timestamp="1586413490428" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1586413490428">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state width="1877" height="418" key="GridCell.Tab.0.center/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418272" />
-    <state width="1877" height="418" key="GridCell.Tab.0.left" timestamp="1586405418272">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1024@0.0.1920.1024" timestamp="1586413490428" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1586413490428">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state width="1877" height="418" key="GridCell.Tab.0.left/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418272" />
-    <state width="1877" height="418" key="GridCell.Tab.0.right" timestamp="1586405418273">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1024@0.0.1920.1024" timestamp="1586413490428" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1586413490428">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state width="1877" height="418" key="GridCell.Tab.0.right/0.0.1920.1024@0.0.1920.1024" timestamp="1586405418273" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1024@0.0.1920.1024" timestamp="1586413490428" />
     <state x="490" y="167" key="Maven.ArtifactSearchDialog" timestamp="1586167702818">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
@@ -350,10 +415,10 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="461" y="155" key="SettingsEditor/0.0.1920.1024@0.0.1920.1024" timestamp="1586405889042" />
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1586406115702">
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2" timestamp="1586407680589">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
-    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1024@0.0.1920.1024" timestamp="1586406115702" />
+    <state x="552" y="245" key="Vcs.Push.Dialog.v2/0.0.1920.1024@0.0.1920.1024" timestamp="1586407680589" />
     <state x="656" y="115" width="1118" height="824" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1586404068014">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
@@ -374,6 +439,10 @@
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
     <state x="932" y="319" key="git4idea.merge.GitPullDialog/0.0.1920.1024@0.0.1920.1024" timestamp="1586406096516" />
+    <state width="416" height="317" key="javadoc.popup.new" timestamp="1586413472787">
+      <screen x="0" y="0" width="1920" height="1024" />
+    </state>
+    <state width="416" height="317" key="javadoc.popup.new/0.0.1920.1024@0.0.1920.1024" timestamp="1586413472787" />
     <state x="352" y="208" key="new project wizard" timestamp="1586338848077">
       <screen x="0" y="0" width="1920" height="1024" />
     </state>
