@@ -1,14 +1,22 @@
 package entity;
 
-import lombok.Data;
-
 /**
  * @author YZY
- * @date 2020/4/10 - 11:36
+ * @date 2020/4/10 - 16:19
  */
-public class Teacher {
+public class Student {
     private int id;
     private String name;
+    private int tid;
+
+    public Student() {
+    }
+
+    public Student(int id, String name, int tid) {
+        this.id = id;
+        this.name = name;
+        this.tid = tid;
+    }
 
     public int getId() {
         return id;
@@ -26,19 +34,20 @@ public class Teacher {
         this.name = name;
     }
 
-    public Teacher(int id, String name) {
-        this.id = id;
-        this.name = name;
+    public int getTid() {
+        return tid;
     }
 
-    public Teacher() {
+    public void setTid(int tid) {
+        this.tid = tid;
     }
 
     @Override
     public String toString() {
-        return "Teacher{" +
+        return "Student{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
+                ", tid=" + tid +
                 '}';
     }
 }

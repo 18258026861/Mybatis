@@ -18,6 +18,8 @@
         <module>mybatis-day5</module>
       <module>mybatis-day5</module>
       <module>mybatis-day6</module>
+      <module>mybatis-day7</module>
+
     </modules>
 
     <name>Mybatis</name>

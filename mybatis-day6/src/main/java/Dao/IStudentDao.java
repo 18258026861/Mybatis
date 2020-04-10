@@ -3,6 +3,7 @@ package Dao;
 import entity.Student;
 import entity.Teacher;
 
+import java.sql.Struct;
 import java.util.List;
 
 /**
@@ -13,7 +14,6 @@ public interface IStudentDao {
 
     List<Student> getStudent();
     List<Student> getStudent2();
-    Student getStudentById(int id);
 
 
 

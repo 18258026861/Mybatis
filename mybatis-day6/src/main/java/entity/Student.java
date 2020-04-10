@@ -7,11 +7,52 @@ import lombok.Data;
  * @author YZY
  * @date 2020/4/10 - 11:36
  */
-@Data
 public class Student {
 
     private int id;
     private String name;
 //    学生需要关联一个老师
     private Teacher teacher;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Teacher getTeacher() {
+        return teacher;
+    }
+
+    public void setTeacher(Teacher teacher) {
+        this.teacher = teacher;
+    }
+
+    public Student(int id, String name, Teacher teacher) {
+        this.id = id;
+        this.name = name;
+        this.teacher = teacher;
+    }
+
+    public Student() {
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", teacher=" + teacher +
+                '}';
+    }
 }

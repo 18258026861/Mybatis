@@ -27,20 +27,9 @@ public class AccountDaoTest {
          iTeacherDao = sqlSession.getMapper(ITeacherDao.class);
          iStudentDao = sqlSession.getMapper(IStudentDao.class);
     }
-    @Test
-    public void getStudentbyid(){
-        Student student = iStudentDao.getStudentById(1);
-        System.out.println(student);
-    }
 
 
-    @Test
-    public void getStudent(){
-        List<Student> students = iStudentDao.getStudent();
-        for(Student student : students){
-            System.out.println(student);
-        }
-    }
+
     @Test
     public void getStudent2(){
         List<Student> students = iStudentDao.getStudent2();
