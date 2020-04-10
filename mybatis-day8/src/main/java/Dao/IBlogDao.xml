@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="Dao.IBlogDao">
+
+<insert id="addBlog" parameterType="Blog">
+    insert into blog(id, title, author, creat_time, views)
+    VALUES(#{id},#{title},#{author},#{creatTime},#{views})
+</insert>
+
+    <select id="findBlog1" resultType="Blog" parameterType="map">
+        select * from blog
+        <where>
+        <if test="author != null">
+            and author = #{author}
+        </if>
+        <if test="views != null">
+            and views >= #{views}
+        </if>
+        </where>
+    </select>
+
+
+<!--    从上往下选择，如果有一个满足就直接执行，如果都没有就执行otherwish-->
+    <select id="findBlog2" resultType="Blog" parameterType="map">
+        select * from blog
+        <where>
+        <choose>
+            <when test="author != null">
+                and author = #{author}
+            </when>
+            <when test="title != null">
+                and title = #{title}
+            </when>
+            <otherwise>
+                and views > 6000
+            </otherwise>
+
+        </choose>
+        </where>
+    </select>
+
+</mapper>
