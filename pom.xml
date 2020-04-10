@@ -17,6 +17,7 @@
       <module>mybatis-day4</module>
         <module>mybatis-day5</module>
       <module>mybatis-day5</module>
+      <module>mybatis-day6</module>
     </modules>
 
     <name>Mybatis</name>
