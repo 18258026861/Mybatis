@@ -8,21 +8,16 @@
     insert into blog(id, title, author, creat_time, views)
     VALUES(#{id},#{title},#{author},#{creatTime},#{views})
 </insert>
-
+<!--if-->
     <select id="findBlog1" resultType="Blog" parameterType="map">
         select * from blog
         <where>
-        <if test="author != null">
-            and author = #{author}
-        </if>
-        <if test="views != null">
-            and views >= #{views}
-        </if>
+        <include refid="if-title-author"></include>
         </where>
     </select>
 
 
-<!--    从上往下选择，如果有一个满足就直接执行，如果都没有就执行otherwish-->
+<!--    choose从上往下选择，如果有一个满足就直接执行，如果都没有就执行otherwish-->
     <select id="findBlog2" resultType="Blog" parameterType="map">
         select * from blog
         <where>
@@ -40,5 +35,37 @@
         </choose>
         </where>
     </select>
+<!--set-->
+    <update id="updateBlog1" parameterType="map">
+        update blog
+            <set>
+--             使用sql片段，提高复用
+            <include refid="if-title-author"></include>
+            </set>
+            where title = #{title}
+    </update>
+
+
+    <sql id="if-title-author">
+        <if test="author != null">
+            author = #{author}
+        </if>
+        <if test="views != null">
+            views = #{views}
+        </if>
+    </sql>
+
+    <select id="findBlogByForeach" parameterType="map" resultType="Blog">
+        select * from blog
+<!--         collection为读取集合的名称，item 是本次迭代获取到的元素，index 是当前迭代的序号
+        当使用 Map 对象（或者 Map.Entry 对象的集合）时，index 是键，item 是值
+         open为拼接开头语句，close拼接结尾语句，separator为品鉴元素之间的字符-->
+        <where>
+        <foreach collection="titles" item="title" open="and (" close=")" separator="or">
+                title = #{title}
+        </foreach>
+        </where>
+    </select>
+
 
 </mapper>

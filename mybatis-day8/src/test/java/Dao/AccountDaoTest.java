@@ -52,19 +52,29 @@ public class AccountDaoTest {
     }
 
     @Test
-    public void findBlog2(){
-
+    public void updateblog1(){
         HashMap<String, Object> map = new HashMap<>();
-        map.put("author","YY");
-        map.put("views",7000);
+        map.put("views",1000);
         map.put("title","blog3");
-//
-        List<Blog> blog2 = iBlogDao.findBlog2(map);
-        for(Blog blog: blog2){
+        map.put("author","YY");
+        int updateBlog1 = iBlogDao.updateBlog1(map);
+        System.out.println(updateBlog1);
+
+    }
+
+    @Test
+    public void findblogbyforeach(){
+        HashMap map = new HashMap();
+        ArrayList<String> titles = new ArrayList<String>();
+        map.put("titles",titles);
+        titles.add("blog1");
+//        titles.add("blog2");
+        titles.add("blog3");
+        List<Blog> blog1 = iBlogDao.findBlogByForeach(map);
+        for(Blog blog: blog1){
             System.out.println(blog);
         }
     }
-
 
     @After
     public void close(){

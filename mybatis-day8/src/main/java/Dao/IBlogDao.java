@@ -13,7 +13,9 @@ public interface IBlogDao {
 
     int addBlog(Blog blog);
 
-    List<Blog> findBlog1(Map<String,Object> map);
-    List<Blog> findBlog2(Map<String,Object> map);
+    List<Blog> findBlog1(Map map);
+    List<Blog> findBlog2(Map map);
 
+    int updateBlog1(Map<String,Object> map);
+    List<Blog> findBlogByForeach(Map map);
 }
