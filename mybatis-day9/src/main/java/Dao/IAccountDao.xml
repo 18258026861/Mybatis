@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--命名空间，绑定一个对应的Dao类,用于成为它的实现类-->
+<mapper namespace="Dao.IAccountDao">
+<!--    eviction使用策略
+        flushInterval:刷新时间,毫秒
+        size:最多可以存储512个引用
+        readOnly:开启只读模式-->
+    <cache eviction="FIFO"
+            flushInterval="60000"
+            size="512"
+            readOnly="true"/>
+
+    <select id="findAll" resultMap="MAP" >
+        select * from account
+    </select>
+
+    <resultMap id="MAP" type="Account">
+        <result property="m" column="money"></result>
+    </resultMap>
+
+    <select id="findById" resultType="Account" parameterType="_int" >
+        select * from account where id=#{id}
+    </select>
+
+</mapper>

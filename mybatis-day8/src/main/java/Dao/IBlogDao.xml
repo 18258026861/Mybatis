@@ -45,7 +45,7 @@
             where title = #{title}
     </update>
 
-
+<!--sql片段-->
     <sql id="if-title-author">
         <if test="author != null">
             author = #{author}

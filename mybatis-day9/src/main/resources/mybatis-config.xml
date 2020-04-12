@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+
+<!--有顺序要求，这个标签需要放到最前面
+        引入外部配置文件-->
+    <properties resource="datesource.properties">
+<!--        也可以在这个标签下填写信息，但是外部配置文件的优先级高-->
+        <property name="username" value="root"/>
+        <property name="password" value="yzy665128"/>
+    </properties>
+
+    <settings>
+        <setting name="logImpl" value="STDOUT_LOGGING"/>
+<!--        显式的开启缓存-->
+        <setting name="cacheEnabled" value="true"/>
+    </settings>
+
+<!--    类型别名-->
+    <typeAliases>
+<!--        指定包名，会在包名下搜索javabean，首字母小写的非限定类名来作为别名-->
+<!--        <package name="entity"/>-->
+
+<!--        自定义别名-->
+        <typeAlias type="entity.Account" alias="Account"/>
+    </typeAliases>
+
+
+<!--   default： 默认使用哪一个环境-->
+    <environments default="development">
+        <environment id="development">
+            <!--            拥有两种type：JDBC，MANAGED(没什么用)-->
+            <transactionManager type="JDBC"/>
+            <!--            数据源三种类型：UNPOOLED:数据源的实现会每次请求时打开和关闭连接。速度慢，简单好用。 性能表现则依赖于使用的数据库
+                                          POOLED：数据池，避免了创建新的连接实例时所必需的初始化和认证时间。 这种处理方式很流行，能使并发 Web 应用快速响应请求。
+                                          JNDI：这个数据源实现是为了能在如 EJB 或应用服务器这类容器中使用，容器可以集中或在外部配置数据源，然后放置一个 JNDI 上下文的数据源引用
+                                          -->
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+<!--    给每一个Mapper.xml文件在Mybatis配置中心注册，如果Mapper.xml文件在Resources文件夹内则不用配置-->
+    <mappers>
+<!--        <mapper resource="Dao/IAccountDao.xml"/>-->
+        <mapper class="Dao.IAccountDao"></mapper>
+    </mappers>
+</configuration>
